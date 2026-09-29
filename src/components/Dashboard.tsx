@@ -87,8 +87,7 @@ export default function Dashboard() {
         </div>
       </main>
 
-      <AIAssistant query={searchQuery} onQueryConsumed={() => setSearchQuery('')} />
-      
+      <AIAssistant query={searchQuery} onQueryConsumed={() => setSearchQuery('')} />  
     </div>
   );
 }
