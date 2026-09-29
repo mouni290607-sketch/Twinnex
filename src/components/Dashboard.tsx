@@ -5,7 +5,6 @@ import TopBar from '@/components/TopBar';
 import Sidebar from '@/components/Sidebar';
 import AlertsPanel from '@/components/AlertsPanel';
 import AIAssistant from '@/components/AIAssistant';
-import MadeInBolt from '@/components/MadeInBolt';
 import DashboardPage from '@/pages/DashboardPage';
 import MonitoringPage from '@/pages/MonitoringPage';
 import CSSPage from '@/pages/CSSPage';
@@ -89,7 +88,7 @@ export default function Dashboard() {
       </main>
 
       <AIAssistant query={searchQuery} onQueryConsumed={() => setSearchQuery('')} />
-      <MadeInBolt />
+      
     </div>
   );
 }
